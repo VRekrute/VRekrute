@@ -15,7 +15,7 @@ $(document).ready(function(){
 
         totalPrice = numberRecruts + getRecrut;
         totalPriceHolder.text(totalPrice + ' рублей');
-        let link = (`https://qiwi.com/payment/form/99999?extra[%27accountType%27]=nickname&extra[%27account%27]=theofflinex&amountInteger=${totalPrice}&amountFraction=0&currency=643`);
+        let link = (`https://qiwi.com/payment/form/99999?extra[%27accountType%27]=nickname&extra[%27account%27]=vrekruteofficial&amountInteger=${totalPrice}&amountFraction=0&currency=643`);
         $(".btnChangeLink").attr('href',link);
     };
     
@@ -26,6 +26,6 @@ $(document).ready(function(){
         
     });
 
-    let link = (`https://qiwi.com/payment/form/99999?extra[%27accountType%27]=nickname&extra[%27account%27]=theofflinex&amountInteger=${totalPrice}&amountFraction=0&currency=643`);
+    let link = (`https://qiwi.com/payment/form/99999?extra[%27accountType%27]=nickname&extra[%27account%27]=vrekruteofficial&amountInteger=${totalPrice}&amountFraction=0&currency=643`);
     $(".btnChangeLink").attr('href',link);
 });
